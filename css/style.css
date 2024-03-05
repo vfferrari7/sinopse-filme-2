@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+body {
+  max-width: relative;
+  background-color: rgb(211, 210, 210);
+  height: 1200px;
+  max-width: 200px;
+}
+
+.ano {
+  margin: 0 auto;
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  bottom: 290px;
+  text-shadow: 0px 1px 1px #000000;
+  font-size: 19px;
+}
+
+#play_button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+#play_button {
+  transition: 0.2s ease-in-out;
+  width: 50px;
+  height: 50px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  position: absolute;
+  margin: auto;
+}
+
+.imagem {
+  width: 214.5px;
+  height: 290.61px;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+  position: relative;
+  
+}
+
+.imagem:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.imagem_div {
+  top: 200px;
+  position: relative;
+  width: 214.5px;
+  height: 290.61px;
+  background-image: url(./imagens/HA1_KEY\ ART.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  left: 70px;
+}
+
+h1 {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  display: block;
+  font-size: 2.75rem;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  bottom: 250px;
+  text-shadow: 0px 1px 1px #000000;
+  font-size: 40px;
+}
+
+#sinopse_text {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 720px;
+  height: 220px;
+  padding-left: 15px;
+  position: relative;
+  left: 100px;
+  top: 50px;
+  font-size: 20px;
+}
+
+h3 {
+  position: relative;
+  display: flex;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 1px #000000;
+}
+
+#fundo {
+  width: 720px;
+  height: 1200px;
+  background-color: white;
+  position: relative;
+  left: 560px;
+  bottom: 800px;
+  opacity: 20%;
+  border-radius: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: 0.2s ease-in-out;
+}
+
+.link:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+#infos {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  bottom: 370px;
+  left: 300px;
+  font-size: 20px;
+  bottom: 480px;
+}
+
+.rotten {
+  height: 120px;
+  display: flex;
+  position: relative;
+  top: 40px;
+  left: 20px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rotten:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.secao {
+  background-color: rgba(255, 255, 255, 0.384);
+  padding: 2px;
+  height: 1000px;
+  width: 900px; 
+  left: 500px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 100%;
+  border-radius: 10px;
+}
+
