@@ -1,12 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
-
 body {
-  max-width: relative;
   background-color: rgb(211, 210, 210);
-  height: 1200px;
-  max-width: 200px;
+  text-align: center;
+  margin: 0 auto;
 }
 
+main{
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+}
 .ano {
   margin: 0 auto;
   font-family: "Inria Sans", sans-serif;
@@ -44,7 +50,6 @@ body {
   border-radius: 10px;
   transition: 0.2s ease-in-out;
   position: relative;
-  
 }
 
 .imagem:hover {
@@ -152,11 +157,10 @@ h3 {
   background-color: rgba(255, 255, 255, 0.384);
   padding: 2px;
   height: 1000px;
-  width: 900px; 
+  width: 900px;
   left: 500px;
   position: relative;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   opacity: 100%;
   border-radius: 10px;
 }
-
